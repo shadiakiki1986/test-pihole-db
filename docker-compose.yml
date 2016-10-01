@@ -10,6 +10,7 @@ services:
     - "80:80"
     environment:
       ServerIP: "${IP}"
+      TERM: "xterm"
     cap_add:
     - NET_ADMIN
 
